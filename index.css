@@ -1,0 +1,59 @@
+h1 {
+    font-family: Verdana;
+    text-align: center;
+  }
+  
+  form,
+  .answer {
+    text-align: center;
+  }
+  
+  fieldset {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  .calculate {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    ;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .calculate:hover {
+    transition-duration: 0.4s;
+    background-color: green;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .reset {
+    background-color: white;
+    border: 2px solid red;
+    ;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .reset:hover {
+    transition-duration: 0.4s;
+    background-color: red;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
